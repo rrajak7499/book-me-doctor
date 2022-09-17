@@ -3,10 +3,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Start 16/09/2022
-    </div>
-  )
+    <>
+      <div className="flex bg-gray-700 min-h-screen justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <h1 className="text-6xl">Bhai Itna he hua hai 😥</h1>
+      </div>
+    </>
+  );
 }
 
 export default App;
